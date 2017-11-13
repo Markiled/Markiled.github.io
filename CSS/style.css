@@ -25,7 +25,7 @@ body {
 	float: left;
 	width: 20%;
 	height: 100%;
-	background-color: #44a0b5;
+	background-color: #37474F;
 }
 
 .main {
@@ -74,7 +74,7 @@ ul li:first-child {
 }
 
 ul li:hover {
-	background-color: hotpink;
+	background-color: #607D8B;
 }
 
 ul li a {
@@ -85,7 +85,7 @@ ul li a {
 }
 
 .active {
-	background-color: #307b8b;
+	background-color: #263238;
 }
 
 
