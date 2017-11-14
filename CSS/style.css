@@ -18,11 +18,10 @@ body {
 }
 
 .sidebar {
-	float: left;
+	position: fixed;
 	width: 25%;
 	height: 100%;
 	background-color: #37474F;
-	position: relative;
 }
 
 .main {
