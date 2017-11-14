@@ -120,6 +120,12 @@ ul li a {
 	border: 2px;
 }
 
+.thumbnailo {
+	height: auto;
+	width: 22%;
+	border: 2px;
+}
+
 /* @Course */
 
 td {
