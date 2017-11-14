@@ -1,11 +1,7 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-/*
-=====================
-	Common
-=====================
-*/
+/* @General */
 html {
 	height: 100%;
 }
@@ -38,11 +34,7 @@ body {
 	padding: 50px 100px;
 }
 
-/*
-=====================
-	Sidebar
-=====================
-*/
+/* @Sidebar */
 
 .icon {
 	display: inline-block;
@@ -100,11 +92,7 @@ ul li a {
 }
 
 
-/*
-=====================
-	about
-=====================
-*/
+/* @About */
 
 .p_start {
 	font-size: 26px;
@@ -112,11 +100,7 @@ ul li a {
 }
 
 
-/*
-=====================
-	access
-=====================
-*/
+/* @Personal */
 
 .map_image {
 	height: 300px;
@@ -130,11 +114,7 @@ ul li a {
 	border: 2px;
 }
 
-/*
-=====================
-	contact
-=====================
-*/
+/* @Course */
 
 td {
 	padding: 3%;
