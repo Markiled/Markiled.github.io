@@ -114,13 +114,19 @@ ul li a {
 	border: 2px dotted lightgrey;
 }
 
-.thumbnail {
+.thumbnail2 {
+	height: auto;
+	width: 45%;
+	border: 2px;
+}
+
+.thumbnail3 {
 	height: auto;
 	width: 30%;
 	border: 2px;
 }
 
-.thumbnailo {
+.thumbnail4 {
 	height: auto;
 	width: 22%;
 	border: 2px;
