@@ -44,9 +44,15 @@ body {
 =====================
 */
 
+.center {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
 .icon {
-	display: block;
-	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
 	height: auto;
 	width: 20%;
 	border: 2px;
