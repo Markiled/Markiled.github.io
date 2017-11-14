@@ -45,6 +45,8 @@ body {
 */
 
 .icon {
+	display: block;
+	margin: auto;
 	height: auto;
 	width: 20%;
 	border: 2px;
