@@ -47,9 +47,10 @@ body {
 .icon {
 	display: inline-block;
 	vertical-align: middle;
-	height: 80%;
-	width: auto;
+	height: auto;
+	width: 30%;
 	border: 2px;
+	padding: 5px 5px;
 }
 	
 .sitename {
