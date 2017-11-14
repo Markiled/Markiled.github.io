@@ -44,12 +44,6 @@ body {
 =====================
 */
 
-.center {
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-}
-
 .icon {
 	display: inline-block;
 	vertical-align: middle;
