@@ -43,6 +43,13 @@ body {
 	Sidebar
 =====================
 */
+
+.icon {
+	height: auto;
+	width: 20%;
+	border: 2px;
+}
+	
 .sitename {
 	text-align: center;
 }
