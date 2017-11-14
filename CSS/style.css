@@ -38,6 +38,11 @@ body {
 	text-align: center;
 }
 
+.pic {
+	width: 75%;
+	height: auto;
+}
+
 /* @Sidebar */
 
 .logo {
