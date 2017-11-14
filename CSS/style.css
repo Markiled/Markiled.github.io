@@ -38,8 +38,7 @@ body {
 
 .logo {
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
+	vertical-align: middle;
 	height: auto;
 	width: 80%;
 	min-width: 30px;
