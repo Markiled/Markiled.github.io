@@ -53,8 +53,8 @@ body {
 .icon {
 	display: inline-block;
 	vertical-align: middle;
-	height: auto;
-	width: 20%;
+	height: 80%;
+	width: auto;
 	border: 2px;
 }
 	
