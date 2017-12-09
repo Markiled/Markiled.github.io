@@ -105,6 +105,11 @@ ul li a {
 	font-weight: 700;
 }
 
+.floatleft {
+	float: left;
+	margin: 5px;
+}
+
 
 /* @Thumbnails */
 
