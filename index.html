@@ -29,7 +29,7 @@
 					<p>Welcome to my archive of art and game development! Contact me at <input type="text" value="markiled@gmail.com" id="email"><button onclick="copyEmail()">Copy</button></a>!</p>
 					<script>
 						function copyEmail() {
-							var copyText = document.getElementById("email") = "markiled@gmail.com";
+							var copyText = document.getElementById("email");
 							copyText.select();
 							document.execCommand("Copy");
 							alert("Copied to clipboard: " + copyText.value);

@@ -36,7 +36,7 @@
 					<p><a href="https://markiled.github.io/resume.pdf" target="_blank"><img src="Images/pdf icon.png" class="smallicon">Resume</a> | <a href="https://www.facebook.com/mark.pareja.90" target="_blank"><img src="Images/fb icon.png" class="smallicon">Facebook</a> | <img src="Images/gmail icon.png" class="smallicon"><input type="text" value="markiled@gmail.com" id="email"><button onclick="copyEmail()">Copy</button></p>
 					<script>
 						function copyEmail() {
-							var copyText = document.getElementById("email") = "markiled@gmail.com";
+							var copyText = document.getElementById("email");
 							copyText.select();
 							document.execCommand("Copy");
 							alert("Copied to clipboard: " + copyText.value);
