@@ -26,7 +26,15 @@
 				<div class="center">
 					<h1>Mark Pareja (Markiled)</h1>
 					<h2>Game Artist</h2>
-					<p>Welcome to my archive of art and game development! Contact me at <a href="mailto:markiled@gmail.com">markiled@gmail.com</a>!</p>
+					<p>Welcome to my archive of art and game development! Contact me at <input type="text" value="markiled@gmail.com" id="email"><button onclick="copyEmail()">Copy</button></a>!</p>
+					<script>
+						function copyEmail() {
+							var copyText = document.getElementById("email") = "markiled@gmail.com";
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied to clipboard: " + copyText.value);
+						}
+					</script>
 					<img src="Images/HB Anim.gif" class="thumbnail2">
 					<img src="Images/HB Raccoon.png" class="thumbnail2">
 					<br>
