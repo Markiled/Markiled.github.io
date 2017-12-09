@@ -108,6 +108,7 @@ ul li a {
 .floatleft {
 	float: left;
 	margin: 5px;
+	height: auto;
 	width: 10%;
 }
 
