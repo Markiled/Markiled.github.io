@@ -112,9 +112,10 @@ ul li a {
 }
 
 .smallicon {
+	vertical-align: middle;
 	margin: 5px;
 	height: auto;
-	width: 10%;
+	width: 5%;
 }
 
 
