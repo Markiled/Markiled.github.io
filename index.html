@@ -26,12 +26,15 @@
 				<div class="center">
 					<h1>Mark Pareja (Markiled)</h1>
 					<h2>Game Artist</h2>
-					<p>Welcome to my archive of art and game development! Contact me at <input type="text" value="markiled@gmail.com" id="email"><button onclick="copyEmail()">Copy</button></p>
+					<p>Welcome to my archive of art and game development! Contact me at</p>
+					<p id="p1">markiled@gmail.com</p><button onclick="copyEmail()">Copy</button>
 					<script>
-						function copyEmail() {
-							var copyText = document.getElementById("email");
-							copyText.select();
+						function copyEmail(element) {
+							var $temp = $("<input>");
+							$("body").append($temp);
+							$temp.val($(element).text()).select();
 							document.execCommand("Copy");
+							$temp.remove();
 							alert("Copied to clipboard: " + copyText.value);
 						}
 					</script>
