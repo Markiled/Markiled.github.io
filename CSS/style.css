@@ -95,6 +95,7 @@ ul li:hover {
 ul li a {
 	text-decoration: none;
 	color: white;
+	font-size: large;
 	display: block;
 	line-height: 80px;
 }
