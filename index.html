@@ -7,6 +7,7 @@
 	<meta name="author" content="Mark-Justin Avila Pareja">
 	<title>Mark Pareja: Game Artist</title>
 	<link rel="stylesheet" href="CSS/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -28,16 +29,6 @@
 					<h2>Game Artist</h2>
 					<p>Welcome to my archive of art and game development! Contact me at</p>
 					<b id="p1">markiled@gmail.com</b><button onclick="copyEmail('#p1')">Copy</button>
-					<script>
-						function copyEmail(element) {
-							var $temp = $("<input>");
-							$("body").append($temp);
-							$temp.val($(element).text()).select();
-							document.execCommand("Copy");
-							$temp.remove();
-							alert("Copied to clipboard: " + copyText.value);
-						}
-					</script>
 					<img src="Images/HB Anim.gif" class="thumbnail2">
 					<img src="Images/HB Raccoon.png" class="thumbnail2">
 					<br>
