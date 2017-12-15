@@ -111,6 +111,7 @@ button {
 	padding: 2px;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
+	height: 52px;
 	cursor: pointer;
 	background-color: #37474F;
 	text-decoration: none;
