@@ -105,8 +105,9 @@ ul li a {
 
 button {
 	display: inline;
-	height: 20px;
+	height: 30px;
 	width: 60px;
+	border-radius: 8px;
 	padding: 2px;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
