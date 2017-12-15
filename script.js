@@ -3,6 +3,6 @@ function copyEmail(element) {
 	$("body").append($temp);
 	$temp.val($(element).text()).select();
 	document.execCommand("Copy");
+	alert("Copied to clipboard: " + $temp);
 	$temp.remove();
-	alert("Copied to clipboard: " + copyText.value);
 }
