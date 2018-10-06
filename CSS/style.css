@@ -138,7 +138,7 @@ footer h3 {
 	margin-bottom: 0;
 }
 
-.container {
+/*.container {
 	height: 100%;
 }
 
@@ -173,9 +173,10 @@ footer h3 {
 	height: 1px;
 	background: #fff;
 }
+*/
 
 /* @Sidebar */
-
+/*
 .logo {
 	display: block;
 	margin-left: auto;
@@ -243,10 +244,10 @@ button {
 	text-decoration: none;
 	color: white;
 }
-
+*/
 
 /* @About */
-
+/*
 .p_start {
 	font-size: 26px;
 	font-weight: 700;
@@ -258,10 +259,10 @@ button {
 	height: auto;
 	width: 5%;
 }
-
+*/
 
 /* @Thumbnails */
-
+/*
 .thumbnail2 {
 	height: auto;
 	width: 40%;
@@ -278,4 +279,4 @@ button {
 	height: auto;
 	width: 20%;
 	border: 2px;
-}
+}*/
