@@ -58,7 +58,7 @@ main {
 }
 
 #landing-image {
-  background: url("Images/Landing/Inktober2018Day1.gif");
+  background: url("../Images/Landing/Inktober2018Day1.gif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
