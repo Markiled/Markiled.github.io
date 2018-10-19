@@ -10,43 +10,72 @@
 	<title>Mark Pareja: Game Artist</title>
 	<link rel="stylesheet" href="CSS/style.css">
 	
-	<script> src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="main.js"></script>
-	
 	<style>
-	#scroll{
-		position: fixed;
-		right: 10px;
-		bottom: 10px;
-		height: 50px;
-		width: 50px;
-		background-color: green;
-		border-radius: 60px;
-		-webkit-border-radius: 60px;
-		-moz-border-radius: 60px;
-		}
-		
-	#scroll span{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-left: -8px;
-		margin-top: -12px;
-		border: 8px solid transparent;
-		border-bottom-color: white;
-		}
-		
-	#scroll hover{
-		background-color: cyan;
-		opacity: 1;
-		filter: "alpha(opacity=100)";
-		-ms-filter: "alpha(opacity=100)";
-		}
-	</style>
+	body {margin:0;}
 
+	.navbar {
+		list-style: none;
+		overflow: hidden;
+		background-color: #624c77;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		float: none;
+		display: inline-block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 4px 6px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	.navbar a:hover {
+		background: #ddd;
+		color: black;
+	}
+
+	.main {
+		padding: 16px;
+		margin-top: 30px;
+	}
+	</style>
+	
+	<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #624c77;">
+		<a class="navbar-brand" href="#" style="padding: 1rem; text-decoration: none; display: flex; align-items:center; max-width: 30%; color: #fff;">
+		<img src="Images/Landing/MarkiledWebIcon.png" style="max-width: 4rem; max-height: 4rem; float: left; padding-right: 1rem;" alt="">Markiled</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav">
+			<a href="#images" class="btn" id="view-work" title="View Recent Works">
+			What's New
+			</a>
+			<a href="#about" class="btn" id="view-about" title="All About Mark">
+			About Me
+			</a>
+			<a href="#contact" class="btn" id="view-contact" title="View Contact Info">
+			Contact Info
+			</a>
+		</ul>
+		</div>
+	</nav>
+	
 </head>
 
-<body>
+<body style="background: #2e2933; padding-top: 80px;">
+	<!-- <div class="navbar">
+		<a href="#images" class="btn" id="view-work" title="View Recent Works">
+		What's New
+		</a>
+		<a href="#contact" class="btn" id="view-contact" title="View Contact Info">
+		Contact Info
+		</a>
+	</div> -->
+
 	<main>
 		<!-- Landing Area -->
 		<div id="landing">
@@ -54,9 +83,6 @@
 				<div id="landing-text-inner">
 					<h1>Mark Pareja (Markiled)</h1>
 					<h2>Game Artist</h2>
-					<a href="#images" class="btn" id="view-work">
-					What's New
-					</a>
 				</div>
 			</div>
 			<div id="landing-image"></div>
@@ -64,9 +90,101 @@
 
 		<div id="images">
 			<div id="header">
-				<h2>Recent Works</h2>
+				<h1>Recent Works</h1>
 			</div>
 
+			<div class="container" style="max-width: 900px;">
+			<h1 style="color: #fff; text-align: center;">Linktober 2018</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day1.gif" target="new"><img src="Images/Landing/Inktober2018Day1.gif" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 1: Weapon</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day2.gif" target="new"><img src="Images/Landing/Inktober2018Day2.gif" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 2: Species/Race</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day3.gif" target="new"><img src="Images/Landing/Inktober2018Day3.gif" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 3: Yiga</p>
+					</div>
+				</div><!--end of col-->
+			</div><!--end of row-->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day4.gif" target="new"><img src="Images/Landing/Inktober2018Day4.gif" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 4: Goron</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day5.gif" target="new"><img src="Images/Landing/Inktober2018Day5.gif" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 5: Fairy/Great Fairy</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day6.gif" target="new"><img src="Images/Landing/Inktober2018Day6.gif" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 6: Rito</p>
+					</div>
+				</div><!--end of col-->
+			</div><!--end of row-->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day7.png" target="new"><img src="Images/Landing/Inktober2018Day7.png" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 7: Favorite Place</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day8.gif" target="new"><img src="Images/Landing/Inktober2018Day8.gif" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 8: Royalty</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day9.gif" target="new"><img src="Images/Landing/Inktober2018Day9.gif" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 9: Guardian/s</p>
+					</div>
+				</div><!--end of col-->
+			</div><!--end of row-->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day10.png" target="new"><img src="Images/Landing/Inktober2018Day10.png" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 10: Sheikah</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day11.png" target="new"><img src="Images/Landing/Inktober2018Day11.png" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 11: Link</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b;">
+						<a href="Images/Landing/Inktober2018Day12.png" target="new"><img src="Images/Landing/Inktober2018Day12.png" alt=""></a>
+						<p class="caption" style="color: #fff;">Day 12: Mask</p>
+					</div>
+				</div><!--end of col-->
+			</div><!--end of row-->
+			</div>
+			
 			<img src="Images/Landing/Inktober2018Day1.gif" alt="">
 			<div class="caption">
 				<h3>Photo One</h3>
@@ -92,20 +210,44 @@
 				<h3>Photo Five</h3>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
 			</div>
-		</div>
+		
+			<div id="about">
+				<div id="header">
+					<h1>About Me</h1>
+				</div>
+			
 	</main>
 
 	<footer>
+	<div id="contact">
 		<h3>Contact Me</h3>
 		<p>Email:
 			<strong>markiled@gmail.com</strong>
+	</div>
 	</footer>
 	
-	<a href="javascript:void(0);" title="Go To Top" id="scroll" style="display:none;">
-	<span></span>
-	</a>
-	
 </body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
 <script
 	src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -113,6 +255,12 @@
 	crossorigin="anonymous"></script>
 	
 	<script src="main.js"></script>
+	
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>
 

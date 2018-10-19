@@ -10,25 +10,24 @@ $('#view-work').on('click', function() {
 	);
 });
 
-$(document).ready(function() {
-	$(window).scroll(function()
-	{
-		if($(this).scrollTop()>100)
-		{
-			$('#scroll').fadeIn();
-		}
-		else
-		{
-			$('#scroll').fadeOut();
-		}
-	});
-		$('#scroll').click(function()
-		{
-			$('html, body').animate(
-			{
-				scrollTop: 0
-			}
-			600);
-			return false;
-		});
+$('#view-about').on('click', function() {
+	const about = $('#about').position().top;
+
+	$('html, body').animate(
+    {
+		scrollTop: about
+    },
+    900
+	);
+});
+
+$('#view-contact').on('click', function() {
+	const contact = $('#contact').position().top;
+
+	$('html, body').animate(
+    {
+		scrollTop: contact
+    },
+    900
+	);
 });
