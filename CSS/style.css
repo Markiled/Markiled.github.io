@@ -61,9 +61,9 @@ main {
 }
 
 #landing-image {
-	background: url("../Images/HB Anim.gif");
-	background-position: center;
-	background-size: cover;
+	background: url("../Images/Under Construction.png");
+	background-position: center top;
+	background-size: contain;
 	background-repeat: no-repeat;
 	height: 85vh;
 	flex: 0 1 60vw;
