@@ -32,7 +32,7 @@ img {
 }
 
 main {
-	padding-top: 2.5rem;
+	/* padding-top: 2.5rem; */
 	max-width: 900px;
 	margin-top: 2rem;
 	margin: auto;
@@ -51,13 +51,15 @@ main {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	padding-top: 8rem;
 	padding-right: 1rem;
 	padding-left: 1rem;
+	padding-bottom: 10rem;
 	color: #fff;
 }
 
 #landing-text h2 {
-	color: #888;
+	color: #ac99bb;
 }
 
 #landing-image {
@@ -128,17 +130,19 @@ footer h3 {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #624c77; /* Set a background color */
+    background-color: #19171b; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 60px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+	opacity: 0.75;
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #5e5664; /* Add a dark-grey background on hover */
 }
+
 
 /* Screen Sizes 500px and Up */
 /* @media (min-width: 500px) {

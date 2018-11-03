@@ -1,4 +1,15 @@
 // Animate Smooth Scroll
+$('#go-home').on('click', function() {
+	const home = $('#').position().top;
+
+	$('html, body').animate(
+    {
+		scrollTop: home
+    },
+    900
+	);
+});
+
 $('#view-work').on('click', function() {
 	const images = $('#images').position().top;
 
