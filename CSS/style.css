@@ -122,6 +122,28 @@ footer h3 {
 	color: #fff;
 }
 
+.more {
+	display: none;
+	padding: 0.8rem;
+	text-align: left;
+	color: #fff;}
+	
+.toggle {
+	border-style: solid;
+    border-color: white;
+	border-width: 1px;
+	outline: none; /* Remove outline */
+    background-color: #19171b; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.toggle:hover {
+	background-color: #5e5664; /* Add a dark-grey background on hover */
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
