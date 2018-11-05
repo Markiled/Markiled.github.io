@@ -22,7 +22,6 @@ h1 {
 h2 {
 	font-weight: 400;
 	font-size: 1.2rem;
-	text-transform: capitalize;
 	margin: 0;
 }
 
@@ -67,7 +66,7 @@ main {
 	background-position: center top;
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 85vh;
+	height: 60vh;
 	flex: 0 1 60vw;
 	margin: 0;
 }
@@ -129,6 +128,7 @@ footer h3 {
 	color: #fff;}
 	
 .toggle {
+	margin-top: 1rem;
 	border-style: solid;
     border-color: white;
 	border-width: 1px;
@@ -165,6 +165,47 @@ footer h3 {
     background-color: #5e5664; /* Add a dark-grey background on hover */
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.centerfull {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  position: relative;
+  
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+}
+.item img {
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 /* Screen Sizes 500px and Up */
 /* @media (min-width: 500px) {
