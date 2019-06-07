@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Mark-Justin Avila Pareja">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mark Pareja: Gameplay</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #19171b">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: #2e2933">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html" style="font-size: 2.5rem;"><img src="Images/Landing/MarkiledWebIconFull.png" style="max-width: 12.75rem; max-height: 4rem; float: left; padding-bottom: 1.5rem;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" class="btn" id="go-home" title="Return to Homepage">
+			Home
+			</a>
+		</li>
+        <li><a href="#contact" class="btn" id="view-contact" title="View Contact Info">
+			Contact Info
+			</a>
+		</li>
+		<li><a href="artwork.html" class="btn" id="view-artwork" title="Various Artwork">
+			Artwork
+			</a>
+		</li>
+		<li class="active"><a href="#" class="btn" id="view-gameplay" title="Gameplay Videos" style="background-color: #2e2933">
+			Gameplay
+			</a>
+		</li>
+		<li><a href="games.html" class="btn" id="view-games" title="Game Projects">
+			Games
+			</a>
+		</li> 
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
+	
+	</div>
+	
+</head>
+
+<body style="background: #2e2933;">
+	<!-- <div class="navbar">
+		<a href="#images" class="btn" id="view-work" title="View Recent Works">
+		What's New
+		</a>
+		<a href="#contact" class="btn" id="view-contact" title="View Contact Info">
+		Contact Info
+		</a>
+	</div> -->
+
+	<main>
+		<!-- Landing Area -->
+		<div id="landing" style="padding-left: 4rem; padding-right: 4rem;">
+			<div id="landing-text">
+				<div id="landing-text-inner">
+					<h1><b>Miscellaneous Gameplay and More</b></h1>
+					<div id="landing-image"></div>
+					<div class="item" style="border: none; overflow: visible; transform: scale(0.80);">
+						<a href="https://www.youtube.com/channel/UC4mS2y5If65sWYNFZc9zvAQ" target="_blank"><img src="Images/YouTube-Logo.png"></a>
+						<div class="item-overlay top"></div>
+					</div>
+					<br>
+					<div class="item" style="border: none; overflow: visible; transform: scale(0.80);">
+						<a href="https://www.twitch.tv/markiled" target="_blank"><img src="Images/Twitch-Logo.png"></a>
+						<div class="item-overlay top"></div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+			
+			
+	</main>
+
+	<footer>
+	<div id="contact">
+		<h3><b>Contact Me</b></h3>
+		<p style="padding-top: 1rem;">
+		<img src="Images/Email-Icon.png" style="margin-left: auto; margin-right: auto; max-width: 4rem; max-height: 5rem; padding-top: 1rem;" alt="">
+		<strong>markiled@gmail.com</strong>
+		<img src="Images/FB-Icon.png" style="margin-left: auto; margin-right: auto; max-width: 4rem; max-height: 5rem; padding-top: 1rem;" alt="">
+		<a href="https://www.facebook.com/markiled" style="color: white;" target="_blank"><strong>facebook.com/markiled</strong></a>
+		</p>
+	</div>
+	</footer>
+	
+</body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="Images/ArrowUp.png" style="max-width: 3rem; max-height: 3rem;"></button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	
+	<script src="main.js"></script>
+	
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
+

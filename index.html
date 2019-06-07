@@ -10,65 +10,6 @@
 	<title>Mark Pareja: Game Artist</title>
 	<link rel="stylesheet" href="CSS/style.css">
 	
-	<!-- <style>
-	body {margin:0;}
-
-	.navbar {
-		list-style: none;
-		overflow: hidden;
-		background-color: #624c77;
-		position: fixed;
-		top: 0;
-		width: 100%;
-	}
-
-	.navbar a {
-		float: none;
-		display: inline-block;
-		color: #f2f2f2;
-		text-align: center;
-		padding: 4px 6px;
-		text-decoration: none;
-		font-size: 17px;
-	}
-
-	.navbar a:hover {
-		background: #ddd;
-		color: black;
-	}
-
-	.main {
-		padding: 16px;
-		margin-top: 30px;
-	}
-	</style> -->
-	
-	<!-- <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #624c77;">
-		<a class="navbar-brand" href="#" style="padding: 1rem; text-decoration: none; display: flex; align-items:center; max-width: 30%; color: #fff;">
-		<img src="Images/Landing/MarkiledWebIcon.png" style="max-width: 4rem; max-height: 4rem; float: left; padding-right: 1rem;" alt="">Markiled</a>
-	
-	<div class="text-right">
-	
-	<button class="navbar-toggler" type="button" style="border-radius: 5px;" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span><a style="color: #2e2933; text-decoration: none;">Menu</a>
-	</button>
-	</div>
-	
-		<div class="collapse navbar-collapse" id="navbarNav">
-		<ul class="navbar-nav">
-			<a href="#images" class="btn" id="view-work" title="View Recent Works">
-			What's New
-			</a>
-			<a href="#about" class="btn" id="view-about" title="All About Mark">
-			About Me
-			</a>
-			<a href="#contact" class="btn" id="view-contact" title="View Contact Info">
-			Contact Info
-			</a>
-		</ul>
-		</div>
-	</nav> -->
-	
 	<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #19171b">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -77,7 +18,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#" style="font-size: 2.5rem;"><img src="Images/Landing/MarkiledWebIcon.png" style="max-width: 3.75rem; max-height: 4rem; float: left; padding-right: 1rem; padding-bottom: 1.5rem;"><b>MARKILED</b></a>
+      <a class="navbar-brand" href="#" style="font-size: 2.5rem;"><img src="Images/Landing/MarkiledWebIconFull.png" style="max-width: 12.75rem; max-height: 4rem; float: left; padding-bottom: 1.5rem;"></a> <!--<img src="Images/Landing/Markiled Logo 3 Full.png" style="max-height: 4rem; max-width: 10rem; float: left; padding-bottom: 1.5rem;">-->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -97,15 +38,19 @@
 			Contact Info
 			</a>
 		</li>
-		<li><a href="linktober.html" class="btn" id="linktober" title="View Linktober Drawings">
-			Linktober
+		<li><a href="artwork.html" class="btn" id="view-artwork" title="Various Artwork">
+			Artwork
+			</a>
+		</li> 
+		<li><a href="gameplay.html" class="btn" id="view-gameplay" title="Gameplay Videos">
+			Gameplay
+			</a>
+		</li>
+		<li><a href="games.html" class="btn" id="view-games" title="Game Projects">
+			Games
 			</a>
 		</li> 
       </ul>
-      <!-- <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul> -->
     </div>
   </div>
 </nav>
@@ -114,26 +59,60 @@
 	
 </head>
 
-<body style="background: #2e2933; padding-top: 50px;">
-	<!-- <div class="navbar">
-		<a href="#images" class="btn" id="view-work" title="View Recent Works">
-		What's New
-		</a>
-		<a href="#contact" class="btn" id="view-contact" title="View Contact Info">
-		Contact Info
-		</a>
-	</div> -->
+<body style="background: #2e2933;">
 
 	<main>
 		<!-- Landing Area -->
-		<div id="landing" style="padding-bottom: 2rem;">
+		<div id="landing" style="padding-bottom: 4rem;">
 			<div id="landing-text">
 				<div id="landing-text-inner">
 					<h1><b>Mark Pareja (Markiled)</b></h1>
 					<h2>Artist | Gamer | Game Dev</h2>
 				</div>
 			</div>
-			<div id="landing-image"></div>
+			<div class="row" style="padding-left: 2rem; padding-right: 2rem;">
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b; border: none;">
+						<div class="play">
+							<a href="artwork.html"><img src="Images/Art-Button.png" style="padding: 1rem; max-width: auto;" alt=""></a>
+							<div class="play-overlay top"></div>
+						</div>
+						<p class="caption" style="color: #fff;"><b>Various Artwork</b>
+						<span id="dots"></span>
+						<span class="more" id="more1"><br>Click above to peruse through a selection of digital art that I have created either for commissions and requests, for Linktober, or just for fun!</span>
+						<br><button class="toggle" id="toggle1">Read more</button>
+						</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b; border: none;">
+						<div class="play">
+							<a href="gameplay.html"><img src="Images/Gameplay-Button.png" style="padding: 1rem; max-width: auto;" alt=""></a>
+							<div class="play-overlay top"></div>
+						</div>
+						<p class="caption" style="color: #fff;"><b>Gameplay Videos</b>
+						<span id="dots"></span>
+						<span class="more" id="more2"><br>Here you will find links to my YouTube and Twitch profiles, where I plan to upload gameplay and other videos!</span>
+						<br><button class="toggle" id="toggle2">Read more</button>
+						</p>
+					</div>
+				</div><!--end of col-->
+				
+				<div class="col-md-4">
+					<div class="thumbnail" style="background: #19171b; border: none;">
+						<div class="play">
+							<a href="games.html"><img src="Images/Games-Button.png" style="padding: 1rem; max-width: auto;" alt=""></a>
+							<div class="play-overlay top"></div>
+						</div>
+						<p class="caption" style="color: #fff;"><b>Game Projects</b>
+						<span id="dots"></span>
+						<span class="more" id="more3"><br>This will take you to a collection of some video game projects that I have developed in the past few years. You can also see some of the assets that I made for them, find out other behind-the-scenes info, and even play some of the games!</span>
+						<br><button class="toggle" id="toggle3">Read more</button>
+						</p>
+					</div>
+				</div><!--end of col-->
+			</div><!--end of row-->
 		</div>
 
 		<div id="images" style="padding-top: 50px;">
@@ -142,38 +121,32 @@
 			</div>
 
 			<div class="container" style="max-width: 900px;">
-			<h1 style="color: #fff; text-align: center;">Linktober 2018</h1>
-			<div class="item">
-			<a href="linktober.html"><img src="Images/Art/Linktober2018/Linktober-2018-Image-Link.png"></a>
-			<div class="item-overlay top"></div>
-			</div>
-			</div>
 			
-			<!-- <img src="Images/Landing/Inktober2018Day1.gif" alt="">
-			<div class="caption">
-				<h3>Photo One</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+			<div class="item">
+				<a href="galvanist.html"><img src="Games/Galvanist/images/TG-Tease.png"></a>
+				<div class="item-overlay top"></div>
 			</div>
-			<img src="Images/Landing/Inktober2018Day2.gif" alt="">
-			<div class="caption">
-				<h3>Photo Two</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+			<h1 style="color: #fff; text-align: center; font-size: 2rem;">The Galvanist (Click to view WIP Game Page)</h1><br>
+			
+			<div class="item">
+				<a href="Images/Art/Commissions/Commission-2019-May-Ian.png"><img src="Images/Art/Commissions/Commission-2019-May-Ian.png"></a>
+				<div class="item-overlay top"></div>
 			</div>
-			<img src="Images/Landing/Inktober2018Day3.gif" alt="">
-			<div class="caption">
-				<h3>Photo Three</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+			<h1 style="color: #fff; text-align: center; font-size: 2rem;">Ian and Hazel (Drawing Request)</h1><br>
+			
+			<div class="item">
+				<a href="Images/Art/Random/Voltaia.png"><img src="Images/Art/Random/Voltaia.png"></a>
+				<div class="item-overlay top"></div>
 			</div>
-			<img src="Images/Landing/Inktober2018Day4.gif" alt="">
-			<div class="caption">
-				<h3>Photo Four</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+			<h1 style="color: #fff; text-align: center; font-size: 2rem;">Voltaia (Character Concept Portrait)</h1><br>
+				
+			<div class="item">
+				<a href="linktober.html"><img src="Images/Art/Linktober2018/Linktober-CTV.gif"></a>
+				<div class="item-overlay top"></div>
 			</div>
-			<img src="Images/Landing/Inktober2018Day5.gif" alt="">
-			<div class="caption">
-				<h3>Photo Five</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-			</div> -->
+			<h1 style="color: #fff; text-align: center; font-size: 2rem;">Linktober 2018</h1><br>
+			
+			</div>
 		
 			<div id="about" style="padding-top: 50px;">
 				<div id="header">
@@ -188,8 +161,12 @@
 	<footer>
 	<div id="contact">
 		<h3><b>Contact Me</b></h3>
-		<p style="padding-top: 1rem;">Email:
-			<strong>markiled@gmail.com</strong>
+		<p style="padding-top: 1rem;">
+		<img src="Images/Email-Icon.png" style="margin-left: auto; margin-right: auto; max-width: 4rem; max-height: 5rem; padding-top: 1rem;" alt="">
+		<strong>markiled@gmail.com</strong>
+		<img src="Images/FB-Icon.png" style="margin-left: auto; margin-right: auto; max-width: 4rem; max-height: 5rem; padding-top: 1rem;" alt="">
+		<a href="https://www.facebook.com/markiled" style="color: white;" target="_blank"><strong>facebook.com/markiled</strong></a>
+		</p>
 	</div>
 	</footer>
 	
