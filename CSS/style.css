@@ -74,6 +74,15 @@ main {
 	margin: 0;
 }
 
+#background-pattern {
+	background: #2e2933 url("../Images/BG-Halftone-Opac5.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 60vh;
+	flex: 0 1 60vw;
+	margin: 0;
+}
+
 .btn {
 	padding: 0.5rem 1rem;
 	border: 1px #ccc solid;
