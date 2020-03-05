@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 
 /* @General */
 /*html {
@@ -6,13 +6,18 @@
 }*/
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	margin: 0;
 	background: #2e2933;
 	height: auto;
 }
 
+p {
+	font-family: 'Dosis', sans-serif;
+}
+
 h1 {
+	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
 	font-size: 2rem;
 	text-transform: uppercase;
@@ -20,6 +25,7 @@ h1 {
 }
 
 h2 {
+	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
 	font-size: 1.2rem;
 	margin: 0;
@@ -40,10 +46,16 @@ main {
 }
 
 #landing {
-	background: #19171b;
+	background: #19171b url("../Images/BG-Halftone-Opac2-Inverted.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: auto;
+	flex: 0 1 60vw;
+	margin: 0;
 }
 
 #landing-text {
+	font-family: 'Dosis', sans-serif;
 	display: flex;
 	flex: 0 1 40vw;
 	height: auto;
@@ -55,11 +67,12 @@ main {
 	padding-left: 1rem;
 	padding-bottom: 3rem;
 	color: #ac99bb;
-	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-width: .0001px;
     -webkit-text-stroke-color: white;
 }
 
 #landing-text h2 {
+	font-family: 'Dosis', sans-serif;
 	font-size: 2.5rem;
 	color: #fff;
 }
@@ -84,6 +97,7 @@ main {
 }
 
 .btn {
+	font-family: 'Dosis', sans-serif;
 	padding: 0.5rem 1rem;
 	border: 1px #ccc solid;
 	display: inline-block;
@@ -99,6 +113,7 @@ main {
 }
 
 #header {
+	font-family: 'Dosis', sans-serif;
 	padding: 1rem;
 	text-align: center;
 	background: #19171b;
@@ -106,6 +121,7 @@ main {
 }
 
 #header h2 {
+	font-family: 'Dosis', sans-serif;
 	font-size: 2rem;
 	display: inline-block;
 	padding-right: 1rem;
@@ -113,6 +129,7 @@ main {
 }
 
 .caption {
+	font-family: 'Dosis', sans-serif;
 	padding: 0.8rem;
 	text-align: center;
 	background: #19171b;
@@ -120,6 +137,7 @@ main {
 }
 
 footer {
+	font-family: 'Dosis', sans-serif;
 	text-align: center;
 	padding: 2rem 1rem;
 	margin: auto;
@@ -127,6 +145,7 @@ footer {
 }
 
 footer h3 {
+	font-family: 'Dosis', sans-serif;
 	font-size: 3rem;
 	margin-bottom: 1rem;
 	color: #fff;
@@ -370,8 +389,8 @@ footer h3 {
 }
 
 .contactText {
-	margin: 1rem;
-	font-weight: 800;
+	margin: 3rem;
+	font-weight: 1000;
 	font-size: 1.4rem;
 }
 
